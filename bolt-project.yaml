@@ -1,5 +1,5 @@
 ---
-name: teams_ui_testing_bolt_project
+name: teams_ui_bolt_project
 modules:
 - name: puppetlabs-exec
 - name: puppetlabs-facts

@@ -12,7 +12,7 @@
 # @param pattern A pattern that must be a capitalised word e.g. Test. Defaults to 'Test'.
 # @param variant Input must be either an integer or a capitalised word e.g. 5 or 'Test'. Defaults to 'Test'.
 # @param hash A json object. Defaults to {}.
-plan teams_ui_testing_module(
+plan teams_ui_bolt_project(
   TargetSpec $targets,
   String $string = undef,
   Boolean $boolean = undef,
@@ -27,7 +27,7 @@ plan teams_ui_testing_module(
   ) {
   # run our test task
   run_task(
-    'teams_ui_testing_module',
+    'teams_ui_bolt_project',
     $targets,
     string => $string,
     boolean => $boolean,
@@ -43,7 +43,7 @@ plan teams_ui_testing_module(
 
   # run the same task a second time
   run_task(
-    'teams_ui_testing_module',
+    'teams_ui_bolt_project',
     $targets,
     string => $string,
     boolean => $boolean,
