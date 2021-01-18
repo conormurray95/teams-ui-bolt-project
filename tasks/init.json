@@ -43,6 +43,10 @@
     "hash": {
       "description": "A json object",
       "type": "Optional[Hash]"
+    },
+    "integer_array": {
+      "description": "An array of integers",
+      "type": "Optional[Array[Integer]]"
     }
   }
 }
